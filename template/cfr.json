@@ -1,0 +1,17 @@
+{
+    "grammar" : "./src/grammar.ebnf",
+    "dest" : "./src/grammar-lib",
+    "start" : "program",
+    "choice" : [
+        {"loc": "./src/impl/BasicSelect.tsx", "applies_to": ["*"]}
+    ],
+    "list" : [
+        {"loc": "./src/impl/VarList.tsx", "applies_to": ["*"]}
+    ],
+    "terminal" : [
+        {"loc": "./src/impl/MyTerminal.tsx", "applies_to": ["*"]}
+    ],
+    "regex" : [
+        {"loc": "./src/impl/MyRegex.tsx", "applies_to": ["*"]}
+    ]
+}
