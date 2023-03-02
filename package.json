@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-cfr",
+  "name": "cra-template-context-free-react",
   "version": "0.1.0",
   "keywords": [
     "react",
@@ -11,7 +11,7 @@
   "description": "This template sets up a typescript react app that uses cfr",
   "repository": {
     "type": "git",
-    "url": "todo"
+    "url": "git+https://github.com/fwander/cra-template-context-free-react.git"
   },
   "license": "MIT",
   "engines": {
@@ -20,5 +20,14 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/fwander/cra-template-context-free-react/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Finn Wander",
+  "homepage": "https://github.com/fwander/cra-template-context-free-react#readme"
 }

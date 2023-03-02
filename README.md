@@ -2,10 +2,10 @@
 
 ```sh
 
-npx create-react-app my-app --template cfr
+npx create-react-app my-app --template context-free-react
 
 # or
 
-yarn create react-app my-app --template cfr
+yarn create react-app my-app --template context-free-react
 ```
 
