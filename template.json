@@ -16,7 +16,7 @@
     },
     "scripts": {
       "postinstall": "./setup.sh",
-      "prestart": "cd ./Context-Free-React/; target/release/cfr cfr.json; cd -"
+      "prestart": "./Context-Free-React/target/release/cfr cfr.json"
     }
   }
 }
