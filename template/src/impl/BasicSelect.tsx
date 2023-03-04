@@ -8,7 +8,7 @@ const BasicSelect: React.FC<SelectInput> = (props) => {
   }
   return <select onChange={selectChange} ref={ref} defaultValue="None">
     <option value="None" key="None" disabled hidden>select</option>
-    {(props.isFocused)? props.names.map((n: string)=>{return <option key={n} value={n}>{n}</option>}) : null}
+    {(props.isFocused())? props.names.map((n: string)=>{return <option key={n} value={n}>{n}</option>}) : null}
   </select>
 }
 
